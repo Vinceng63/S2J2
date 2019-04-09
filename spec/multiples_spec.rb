@@ -24,8 +24,8 @@ describe "the sum_multiples_3_5 method" do
   end
 
   it "is NOT a natural integer" do
-    expect(sum_multiples_3_5(-1)).to eq("Yo ! Je ne prends que les entiers naturels. TG")
-    expect(sum_multiples_3_5(1.23)).to eq("Yo ! Je ne prends que les entiers naturels. TG")
-    expect(sum_multiples_3_5("string")).to eq("Yo ! Je ne prends que les entiers naturels. TG")
+    expect(sum_of_3_or_5_multiples(-1)).to eq("Yo ! Je ne prends que les entiers naturels. TG")
+    expect(sum_of_3_or_5_multiples(1.23)).to eq("Yo ! Je ne prends que les entiers naturels. TG")
+    expect(sum_of_3_or_5_multiples("string")).to eq("Yo ! Je ne prends que les entiers naturels. TG")
   end
 end
